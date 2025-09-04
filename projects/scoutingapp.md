@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/scoutingapp.JPG
 title: "Scouting App"
 date: 2023
 published: true
