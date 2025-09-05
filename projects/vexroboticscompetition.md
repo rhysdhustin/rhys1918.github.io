@@ -7,7 +7,6 @@ date: 2022-2023
 published: true
 labels:
   - Robotics
-  - Python
   - C++
   - Competition
 summary: "My team developed a robot to score during autonomous and teleop period of the game and handle a skills portion on the side of the game."
