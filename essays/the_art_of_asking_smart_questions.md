@@ -39,7 +39,7 @@ Because of the clarity in the question, the community was able to respond with d
 
 Link: [xml unexpected token error in android](https://stackoverflow.com/questions/20173345/xml-unexpected-token-error-in-android)  
 
-This question shows some effort, but still misses the mark to be considered a smart question. The asker provides an XML snippet and a bit of code, then says they get an “unexpected token” error. However, they fail to include the **stack trace** or the **full error message** from the code, and they don’t specify details like what the Android version, parser type, or file source the code is in.  
+This question shows some effort, but still misses the mark to be considered a smart question. The asker provides an XML snippet and a bit of code, then says they get an “unexpected token” error. However, they fail to include the stack trace or the full error message from the code, and they don’t specify details like what the Android version, parser type, or file source the code is in.  
 
 Because of the lack of details, the community’s responses are forced to guess at possible causes, such as a hidden Byte Order Mark in the XML file or issues with the chosen input method. While the answers offered potential fixes, they were less certain and efficient in their response.  
 
