@@ -12,54 +12,49 @@ labels:
 
 ## Why smart questions matter
 
-In software engineering, how we ask questions often matters just as much as the code itself.  
-Eric Raymond’s classic essay, *How to Ask Questions the Smart Way*, reminds us that clear, detailed, and respectful questions lead to better and faster answers.  
-StackOverflow offers countless examples: well-prepared questions invite collaboration, while vague ones cause frustration or confusion.
+In software engineering, the way we pose questions to others matters just as much as the code itself. When writing code, it's mostly about using your problem-solving skills, but when we get stuck, we tend to reach out for help. Whether that's on GitHub, Forums, StackOverflow, or even teammates. Which at this point, our ability to communicate clearly becomes important just like our technical skills. 
+
+Eric Raymond's essay, *How to Ask Questions the Smart Way*, highlights that the quality of answers we receive is tied to the quality of the questions we ask. When disscussing about what makes a good smart question it should contain specific or detailed line of questioning, while being respectful of others' time. The question posed could include error messages, snippets of code, or even a detailed explanation in the question to help others understand the problem clearly. Compared to a not-so-smart question, it poses vague, incomplete, or rushed posts that don't explain the problem. For example, a question like *"My login page doesn't work, help!"* gives no code, error message, or even a detailed explanation of the context. Instead of helping, responders would often get frustrated, ask for clarification, or simply ignore or give up on the question. This type of questioning usually shifts the asker to burden others to figure out the problem from scratch, which usually results in silence or unhelpful responses. 
+
+So, when thinking about why smart questions matter, smart questions help invite collaboration to solve the problem. While not-so-smart questions push people away and receive unhelpful responses. The difference often comes down to clarity and being respectful when posing the question.
 
 ---
 
-## A Smart Question
+## A Smart Question Example
 
-**Link:** [How to efficiently create an array from a list containing arrays of different lengths](https://stackoverflow.com/questions/79758933/how-to-efficiently-create-an-array-from-a-list-containing-arrays-of-different-le)
+Link: [Why is function with a list comprehension statement faster than the list comprehension statement?](https://stackoverflow.com/questions/64914019/why-is-function-with-a-list-comprehension-statement-faster-than-the-list-compr)  
 
-This developer wanted to combine NumPy arrays of different widths into one padded array. They provided:
+This question is a good example of “asking a smart question.” The developer noticed that a Python function using a list comprehension ran faster than writing the comprehension directly in the outer scope. Instead of just saying “Why is Python weird?” the asker:
 
-- A minimal reproducible code example.  
-- A clear explanation of the goal: merge arrays, padding missing entries with `nan`.  
-- The specific problem: their for-loop was too slow for large datasets.  
+- Shared the exact code comparison they tested.  
+- Provided timing experiments that showed the performance difference.  
+- Explained what they expected (similar performance) versus what they observed (the function seemed faster).  
+- Included environment details such as Python version.  
 
-Because of this, the answers were efficient and creative. The top solution suggested better approaches like packed arrays and sparse matrices, not just small tweaks.  
-This is a textbook example of how following Raymond’s principles leads to high-value responses.
-
----
-
-## Not-So-Smart Question
-
-**Link:** [Html Form - route is wrong](https://stackoverflow.com/questions/13277385/html-form-route-is-wrong)
-
-In this case, the developer’s form action was set to `api/upload` instead of `/api/upload`. While they posted some code, they left out key details such as the actual request URL or what debugging steps they had tried.  
-
-The accepted answer was simple—add a leading slash—but the missing context made the problem less obvious at first.  
-This shows how incomplete questions shift the burden onto helpers and slow down the process.
+Because of the clarity in the question, the community was able to respond with detailed explanations and interpret how to solve the issue. The answers didn’t just solve the unsolved explanation but also taught broader lessons about Python optimization. This is exactly the type of collaboration that Raymond argues smart questions make possible.  
 
 ---
 
-## Comparing the Two
+## Not-So-Smart Question Example
 
-The NumPy example demonstrates the power of smart questions: with clear goals, examples, and evidence, the community can provide insightful, efficient answers.  
-The HTML form question shows the opposite: without enough detail, helpers are forced to guess at simple issues.  
+**Link:** [xml unexpected token error in android](https://stackoverflow.com/questions/20173345/xml-unexpected-token-error-in-android)  
 
-Both threads reinforce Raymond’s key principles:  
-- Provide a minimal reproducible example.  
-- Show what you tried and what you observed.  
-- Be specific about your environment and your goal.  
+This question shows some effort, but still misses the mark to be considered a smart question. The asker provides an XML snippet and a bit of code, then says they get an “unexpected token” error. However, they fail to include the **stack trace** or the **full error message** from the code, and they don’t specify details like what the Android version, parser type, or file source the code is in.  
+
+Because of the lack of details, the community’s responses are forced to guess at possible causes, such as a hidden Byte Order Mark in the XML file or issues with the chosen input method. While the answers offered potential fixes, they were less certain and efficient in their response.  
+
+This example illustrates how leaving out critical context in the question can lead a question from smart to not-so-smart. The asker’s missing details made it harder for others to diagnose the real issue quickly.  
 
 ---
 
-## Conclusion
+## Comparing the Two  
 
-Asking smart questions is not about gatekeeping—it is about respecting the time and expertise of others.  
-Smart questions make collaboration smoother, whether on StackOverflow, in class, or in the workplace.  
+When comparing the two examples, it shows how posing the question matters. The smart Python question was rewarded with immediate, high-quality answers because it respected people’s time and made the problem easy to understand with its explanation. While the vague Android XML question did the opposite, it left out crucial details, which forces responders to guess the solution and slows down the problem-solving process to get the answer the asker posed. When understanding the comparison of the two examples, smart questions respect others and foster community learning, while not-smart ones create frustration. 
 
-Going forward, I plan to apply these lessons in all my communication: be specific, include context, and show effort.  
-That way, I can get smarter answers—and become a smarter engineer myself.  
+Additionally, a real-life example I started to compare was how we use AI tools like ChatGPT or ClaudeAI to help us solve problems. I've noticed patterns such as asking these tools a clearer and more specific question leads to better AI’s response. While asking a vague request to AI, such as “fix my code” and pasting it without telling what caused the issue, usually produces a generic answer or produces more errors in the code. Whether asking humans on StackOverflow or machines through AI, the principle is still the same, smart questions lead to smarter answers, while not-so-smart question creates frustration.
+
+---
+
+## Conclusion   
+
+In conclusion, being good engineer is more than just writing code or solving complex solutions, it’s also about how we communicate problems and solutions. Smart questions demonstrate curiosity, preparation, and respect, which invite others to engage and share their knowledge. While not-so-smart questions, does the polar oppsite, in which it slow things down and make collaboration harder between people. If we treat every question as a chance to learn and to teach, the whole community benefits from it. In the end, asking better questions doesn’t just get us better answers, it makes us better engineers.  
