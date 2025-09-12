@@ -37,7 +37,7 @@ Because of the clarity in the question, the community was able to respond with d
 
 ## Not-So-Smart Question Example
 
-**Link:** [xml unexpected token error in android](https://stackoverflow.com/questions/20173345/xml-unexpected-token-error-in-android)  
+Link: [xml unexpected token error in android](https://stackoverflow.com/questions/20173345/xml-unexpected-token-error-in-android)  
 
 This question shows some effort, but still misses the mark to be considered a smart question. The asker provides an XML snippet and a bit of code, then says they get an “unexpected token” error. However, they fail to include the **stack trace** or the **full error message** from the code, and they don’t specify details like what the Android version, parser type, or file source the code is in.  
 
