@@ -11,7 +11,7 @@
     "profiles": [
       { "network": "github", "username": "rhysdhustin", "url": "http://github.com/rhysdhustin" },
       { "network": "linkedin", "username": "rhysdhustinocana", "url": "https://www.linkedin.com/in/rhys-dhustin-ocana-680644381/" },
-      { "network": "hawaiislack", "username": "rhysdhustinocana", "url": "https://hawaii.slack.com/team/U09CCEH5X0X" },
+      { "network": "hawaiislack", "username": "rhysdhustinocana", "url": "https://hawaii.slack.com/team/U09CCEH5X0X" }
     ]
   },
   "interests": [
@@ -50,7 +50,7 @@
       "area": "Information & Computer Science",
       "studyType": "A.S.",
       "startDate": "2023",
-      "endDate": "2025",
+      "endDate": "2025"
     }
   ],
   "work": [
@@ -63,9 +63,9 @@
       "summary": "Help with decoration and taking photos with photobooth machine",
       "highlights": [
         "Experince how a local own bussiness operates",
-        "Learn how to operate different machines",
+        "Learn how to operate different machines"
       ]
-    },
+    }
   ],
   "references": [
     {
