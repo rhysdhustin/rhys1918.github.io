@@ -12,16 +12,10 @@ labels:
 ---
 
 ## Setting the Stage
-When I first started to program, I thought of coding standards as a trivial matter. Did it really matter if I used tabs or spaces, if my curly braces were on the same line, or even if my comments in my code needed to be uniform with each other? Over time, I began working with various programming languages, including Java, JavaScript, HTML, C++, and Python. I began to realize that coding standards are much more than looking aesthetically pleasing; they are about communication, maintainability, and learning the “language of developers.”
+When I first started to program, I thought of coding standards as a trivial matter. Did it really matter if I used tabs or spaces, if my curly braces were on the same line, or even if my comments in my code needed to be uniform with each other? Over time, I began working with various programming languages, like Java, JavaScript, HTML, C++, and Python. I began to realize that coding standards are much more than looking aesthetically pleasing. It fouces on communication, maintainability, and learning the “language of developers.”
 
 ## Why Coding Standards Matter
-Each programming language I have used highlights different challenges.
-
-  - In Java, consistency in naming conventions and indentation makes large object-oriented projects manageable.
-  - In C++, strict standards prevent errors that can hide in complex memory management.
-  - In Python, the enforced indentation rules practically become a built-in standard.
-  - In JavaScript and HTML, loose syntax rules can lead to chaos unless coding standards are applied.
-  
+Each programming language I have used highlights different set of challenges. Like in Java it requires consistency naming conventions and indentation makes large object-oriented projects manageable. Another example is in C++, it had strict standards prevent errors that can hide in complex memory management. Additionally  in Python, it enforced indentation rules practically becoming a built-in standard. Finally in JavaScript and HTML, it had loose syntax rules, which can lead to chaos unless you applied coding standards to maintain readabliltiy.
 From this, I have learned that coding standards are not arbitrary. They make collaboration possible. When code is consistent, it makes it feel familiar, no matter who wrote it. This makes it crucial when reading old code or working on team projects.
 
 ## ESLint in VSCode: Painful but Useful
@@ -32,12 +26,8 @@ After fixing enough warnings and errors, I noticed that my code naturally looked
 ## Personal Insights and Lessons Learned
 Working across multiple languages has shown me that coding standards aren’t just a tool. They are a mindset to help guide us along. They push me to think about clarity, maintainability, and whether it is readable for others.
 
-  - In Java, consistent conventions for naming, package structure, and Javadoc comments make large, object-oriented codebases easier to navigate and maintain, while itself displaying strong typing and idiomatic patterns help prevent design-level surprises.
-  - In Python, I appreciate how PEP 8 provides a shared foundation for readability and idiomatic structure.
-  - In C++, standards help prevent subtle errors like memory management and object lifetimes, which can cost hours of debugging.
-  - In JavaScript, using ESLint in VSCode acts like a teacher and safety net that helps you move towards safer patterns and clearer code.
-  - Even in HTML, small standards like consistent indentation and attribute ordering make large files much easier to navigate.
-  
+In Java, consistent conventions for naming, package structure, and Javadoc comments make large, object-oriented codebases easier to navigate and maintain, while itself displaying strong typing and idiomatic patterns help prevent design-level surprises. While in Python, I appreciate how PEP 8 provides a shared foundation for readability and idiomatic structure. Additionally in C++, standards had help me prevent subtle errors like memory management and object lifetimes, which can cost hours of debugging. As well as in JavaScript, getting to use ESLint in VSCode has helped me move towards safer patterns and clearer code. And even in HTML, where small standards like consistent indentation and attribute ordering make large files much easier to navigate.
+
 Looking back, I realize coding standards have made me into a more disciplined programmer. Instead of rushing through just to get working code, I now pause once in a while to ask myself if this code is readable for myself and others to read later.
 
 ## Conclusion
