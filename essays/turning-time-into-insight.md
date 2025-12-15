@@ -11,8 +11,6 @@ labels:
   - Team Project
 ---
 
-# Turning Time into Insight
-
 ## How I Made My Effort Estimates
 
 The effort estimation draws on a team project called **Rainbow Reclamation**, a lost-and-found application, but I took responsibility for estimating and tracking my own work progress. I made my effort estimate by carefully reviewing the requirements for each assigned issue given to me and identifying the specific tasks involved in the issue, such as implementation, planning, debugging, and testing code. When I have a similar functionality in an issue that goes hand in hand with another issue, I would delete the posted issue and recalculate the amount of time both issues would take in that one branch. For tasks involving unfamiliar logic or libraries, I would increase the estimated time to take into account learning how to solve the issue. Breaking larger features into smaller subtasks has helped me better understand the scope of work to help produce a more realistic estimate.
@@ -37,7 +35,7 @@ If I were to repeat this process, I would spend more time early on to plan out t
 
 ## AI Use in Effort Estimation and Tracking
 
-In this project, I used AI tools like **ChatGPT** or **Claude** to help with understanding requirements, exploring implementation strategies, and generating example code for the project. Representative request prompts include, _“Explain how to implement this feature in React”_ or _“Help debug this error message.”_ The time spent on these prompts for reviewing generated code, debugging, and integrating outputs was counted as coding effort. The majority of the responses required manual edits or corrections to the current codebase. These AI tools were also used for non-coding tasks such as learning new concepts or clarifying documentation, which I tracked separately as non-coding effort. While I think AI improved productivity, I think careful verification to accurately track effort remained essential.
+In this project, I used AI tools like **ChatGPT** or **Claude** to help with understanding requirements and generating example code snippets for the project. The prompts developed during this project included,_“Explain how to implement this feature in React”_ or _“Help debug this error message.”_ Time spent on these prompts for reviewing generated code, debugging, and integrating outputs was counted towards coding effort. The majority of the responses required minimal edits or corrections to the current codebase. These AI tools were also used for non-coding tasks such as learning new concepts or clarifying documentation, which I tracked separately as non-coding effort. While I think AI improved productivity, I think careful verification to accurately track effort remained essential.
 
 ## Final Thoughts
 
