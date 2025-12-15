@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Turning Time into Insight"
-date: 2025-12-04
+date: 2025-12-14
 published: true
 labels:
   - Design Patterns
