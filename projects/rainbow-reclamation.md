@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rainbow-reclamation.png
+image: img/rainbow-reclamation-title.png
 title: "Rainbow Reclamation"
 date: 2025
 published: true
