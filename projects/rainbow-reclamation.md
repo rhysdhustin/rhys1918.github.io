@@ -36,7 +36,7 @@ I created mockup pages for the **landing page**, **user dashboard**, and **admin
 
 ##### Landing Page
 
-<img class="img-fluid" src="../img/land-page.png">
+<img class="img-fluid" src="../img/landing-page.png">
 
 ##### User Dashboard
 
